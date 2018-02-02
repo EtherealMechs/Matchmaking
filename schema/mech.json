@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "mech",
+    "description": "Representation of ERC721 mech",
+    "type": "object",
+    "properties": {
+    	"class": {
+    		"description": "The type of mech",
+    		"type": "string"
+    	},
+        "eth_id": {
+            "description": "The address of the ERC721 contract for this mech",
+            "type": "string"
+        },
+        "prestige": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 1000,
+        },
+    },
+    "required": ["socket", "class", "eth_id", "prestige"]
+}
