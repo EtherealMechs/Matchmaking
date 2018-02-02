@@ -15,12 +15,12 @@
         "prestige": {
             "type": "number",
             "exclusiveMinimum": 0,
-            "maximum": 1000,
+            "maximum": 100,
         },
         "parts":
         {
         	"type": "object",
-        	"description": "object containing all the parts"
+        	"description": "Object containing all the parts for this mech"
         }
     },
     "required": ["socket", "class", "eth_id", "prestige"]
