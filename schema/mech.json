@@ -17,6 +17,11 @@
             "exclusiveMinimum": 0,
             "maximum": 1000,
         },
+        "parts":
+        {
+        	"type": "object",
+        	"description": "object containing all the parts"
+        }
     },
     "required": ["socket", "class", "eth_id", "prestige"]
 }
